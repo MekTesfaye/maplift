@@ -537,6 +537,23 @@ p {
   max-width: 50rem;
 }
 
+.callout--offer {
+  margin-top: 1.5rem;
+  border-style: solid;
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.callout + .callout {
+  margin-top: 0.85rem;
+}
+
+.offer-note {
+  margin: -0.4rem 0 1.1rem;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
 /* FAQ */
 
 .faq-list {
