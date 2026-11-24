@@ -356,47 +356,24 @@ p {
   max-width: 32rem;
 }
 
-.map-card {
+.hero-photo {
   margin: 0;
   width: 100%;
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
   border-radius: 14px;
   overflow: hidden;
+  border: 1px solid var(--line);
   box-shadow: 0 12px 32px color-mix(in srgb, var(--ink) 8%, transparent);
-}
-
-.map-card__bar {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.25rem 0.75rem;
-  padding: 0.7rem 1rem;
-  border-bottom: 1px solid var(--line);
   background: var(--sand);
 }
 
-.map-card__title {
-  margin: 0;
-  font-family: var(--sans);
-  font-size: 0.82rem;
-  font-weight: 650;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-}
-
-.map-card__caption {
-  margin: 0;
-  font-size: 0.8rem;
-  color: var(--ink-soft);
-}
-
-.map-card svg {
+.hero-photo img {
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center 30%;
+  vertical-align: middle;
 }
 
 /* Cards and lists */
@@ -736,17 +713,6 @@ p {
   }
 }
 
-@media (max-width: 519px) {
-  .map-card__bar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .map-card {
-    width: 100%;
-    max-width: 100%;
-  }
-}
 
 .about-copy {
   max-width: 42rem;

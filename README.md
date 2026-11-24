@@ -22,7 +22,7 @@ Then open http://localhost:8080/
 - Prices are marked as “from” and labelled indicative.
 - The main call to action is a `mailto:` link to mekdimtesfaye07@gmail.com, with a pre-filled subject for the free Maps visibility check.
 - The ABN is intentionally omitted.
-- The map in the hero is a stylised illustration, not a live listing or a results claim.
+- The hero photograph is a generated image of a homeowner looking at a phone. The screen is blank, with no maps or brand interface. See CREDITS.md.
 
 ## Fonts
 

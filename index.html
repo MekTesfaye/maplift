@@ -27,6 +27,7 @@
   <meta name="twitter:image:alt" content="MapLift: get more calls from Google Maps, for Gold Coast trades.">
   <link rel="preload" href="fonts/source-sans-3-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" href="images/hero-homeowner-640.webp" imagesrcset="images/hero-homeowner-640.webp 640w, images/hero-homeowner-864.webp 864w" imagesizes="(min-width: 960px) 28rem, calc(100vw - 2.5rem)">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -143,34 +144,16 @@
           <p class="fineprint">No lock-in contracts. Free check, no obligation.</p>
         </div>
 
-        <figure class="map-card">
-          <div class="map-card__bar">
-            <p class="map-card__title">Gold Coast</p>
-            <p class="map-card__caption">A stylised map, not a live listing</p>
-          </div>
-          <svg viewBox="0 0 400 460" role="img" aria-labelledby="map-title map-desc">
-            <title id="map-title">Stylised map of the Gold Coast</title>
-            <desc id="map-desc">A decorative map of the Gold Coast coastline, from Southport down to Coolangatta, with pins at well-known suburbs. It is an illustration, not a ranking or a real business listing.</desc>
-            <path fill="#cfe0ed" d="M0 0h400v460H0z"/>
-            <path fill="#e8e1d2" d="M0 0h268c8 28 6 52-10 78-18 30-16 52-2 84 12 28 8 54-8 86-14 28-8 58 10 90 12 22 8 48-6 74-6 12-8 26-4 48H0V0z"/>
-            <path fill="none" stroke="#134E42" stroke-width="3" stroke-linejoin="round" d="M258 0c8 28 6 52-10 78-18 30-16 52-2 84 12 28 8 54-8 86-14 28-8 58 10 90 12 22 8 48-6 74-6 12-8 26-4 48"/>
-            <g fill="#134E42">
-              <path d="M248 92c0 0 9-10.5 9-16.5a9 9 0 1 0-18 0c0 6 9 16.5 9 16.5z"/>
-              <path d="M266 176c0 0 9-10.5 9-16.5a9 9 0 1 0-18 0c0 6 9 16.5 9 16.5z"/>
-              <path d="M246 282c0 0 9-10.5 9-16.5a9 9 0 1 0-18 0c0 6 9 16.5 9 16.5z"/>
-              <path d="M264 388c0 0 9-10.5 9-16.5a9 9 0 1 0-18 0c0 6 9 16.5 9 16.5z"/>
-            </g>
-            <circle cx="248" cy="77" r="3.1" fill="#F4F0E6"/>
-            <circle cx="266" cy="161" r="3.1" fill="#F4F0E6"/>
-            <circle cx="246" cy="267" r="3.1" fill="#F4F0E6"/>
-            <circle cx="264" cy="373" r="3.1" fill="#F4F0E6"/>
-            <text x="228" y="80" text-anchor="end" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="18" font-weight="600" fill="#122026">Southport</text>
-            <text x="236" y="164" text-anchor="end" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="18" font-weight="600" fill="#122026">Surfers Paradise</text>
-            <text x="226" y="270" text-anchor="end" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="18" font-weight="600" fill="#122026">Burleigh Heads</text>
-            <text x="244" y="376" text-anchor="end" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="18" font-weight="600" fill="#122026">Coolangatta</text>
-            <text x="382" y="38" text-anchor="end" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="15" font-weight="600" fill="#3a484f">Coral Sea</text>
-            <text x="18" y="38" font-family="Source Sans 3, Source Sans Pro, sans-serif" font-size="15" font-weight="600" fill="#3a484f">Hinterland</text>
-          </svg>
+        <figure class="hero-photo">
+          <img
+            src="images/hero-homeowner-864.webp"
+            srcset="images/hero-homeowner-640.webp 640w, images/hero-homeowner-864.webp 864w"
+            sizes="(min-width: 960px) 28rem, calc(100vw - 2.5rem)"
+            width="864"
+            height="1152"
+            alt="A homeowner stands in the sunny driveway of a suburban Gold Coast house, looking at a phone."
+            fetchpriority="high"
+            decoding="async">
         </figure>
       </div>
     </section>
